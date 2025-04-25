@@ -1,0 +1,384 @@
+/* Aplica márgenes y padding cero a todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Define el fondo y color de texto de la página */
+body {
+    background-image: url(imagenes/Kahua_Ilustración_patron.png);
+    color: wheat;
+    border-radius: 50px; /* Bordes redondeados */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #01050a;
+}
+
+video {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+    height: 70%;
+    border-radius: 40px;
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex; /* Usa Flexbox para organizar los elementos */
+    justify-content: space-between; /* Separa el título y la navegación */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding: 10px; /* Espaciado interno */
+    background-color: #020c18; /* Color azul corporativo */
+    color: white; /* Texto en color blanco */
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.logo-container {
+    max-width: 90%;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    display: flexbox;
+    width: 250px;
+    max-width: 250px;
+    height: auto;
+    border-radius: 40px;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 10px;
+}
+/* Estilos de la navegación */
+nav ul {
+    display: flex; /* Usa Flexbox para alinear los enlaces horizontalmente */
+    list-style: none; /* Elimina los estilos de lista predeterminados */
+}
+
+nav ul li {
+    margin: 0 15px; /* Agrega espacio entre los enlaces */
+}
+
+/* Estilos de los enlaces de navegación */
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: white; /* Mantiene el color blanco */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+}
+
+/* Efecto de hover en los enlaces */
+nav ul li a:hover {
+    color: yellow; /* Cambia a amarillo al pasar el mouse */
+}
+
+/* Contenedor principal */
+main {
+    padding: 40px; /* Espaciado interno */
+    text-align: center; /* Alinea el contenido al centro */
+}
+
+/* Estilos de la galería */
+.galeria {
+    display: flex; /* Usa Flexbox para alinear las tarjetas */
+    justify-content: center; /* Centra las tarjetas */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en diferentes filas */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.galeria p {
+    font-weight: bold;
+    font-style: oblique;
+    color: #333333;
+    margin: 10px
+}
+.galeria img {
+    width: 100px;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFA726;
+}
+.nosotros {
+    background-color: rgba(0, 0, 0, 0.6); /* fondo semitransparente */
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    color: floralwhite;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.servicios {
+    background-color: rgba(0, 0, 0, 0.6); /* fondo semitransparente */
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    color: floralwhite;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    line-height: 1.6;
+    font-size: 17px;   
+}
+
+.contacto {
+    background-color: rgba(0, 0, 0, 0.6); /* fondo semitransparente */
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 1100px;
+    color: floralwhite;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    line-height: 1.6;
+    font-size: 17px; 
+}
+
+.contacto h1 {
+    font-size: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .seccion-productos {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    color: floralwhite;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  .seccion-productos h1 {
+    font-size: 30px;
+  }
+
+  .producto {
+    text-align: center;
+    max-width: 300px;
+    margin-top: 30px;
+  }
+
+  .producto img {
+    width: 200px;
+    height: 350px;
+  }
+
+  .amarillo {
+    color: yellow;
+  }
+
+  .rojo {
+    color: red;
+  }
+
+.lulo {
+    color: #B3D233;
+}
+
+.guayaba {
+    color: #FFB6B9;
+}
+
+.imagen {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    border-radius: 40px;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background-color: none; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta cualquier contenido fuera de la tarjeta */
+    height: auto;
+    width: 250px; /* Define el ancho de la tarjeta */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    text-align: center; /* Alinea el contenido al centro */
+    padding: 20px; /* Espaciado interno */
+}
+
+.card img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos de los títulos de las tarjetas */
+.card h3 {
+    margin: 15px 0; /* Espaciado superior e inferior */
+    font-size: 20px; /* Tamaño de fuente */
+}
+
+/* Botón "Ver más" */
+summary {
+    display: inline-block; /* Permite que se comporte como un botón */
+    background-color: #16355a; /* Color de fondo azul */
+    color: white; /* Texto en color blanco */
+    border: 2px solid #566170; /* Borde azul oscuro */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al estilo de puntero */
+    transition: background-color 0.3s ease-in-out; /* Efecto de transición */
+    margin-top: 15px; /* Espaciado superior */
+}
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario-container h3 {
+    font-size: 30px;
+}
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 40%; 
+    display: flex;
+    flex-direction: column; 
+    margin-left: 50px;
+    background-color: #333333;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 97%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid black;
+    background-color: antiquewhite;
+}
+
+form button:hover {
+    background: tomato;
+}
+
+/* Elimina la flecha del botón "Ver más" */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Efecto de hover en el botón */
+summary:hover {
+    background-color: #0056b3; /* Cambia a un azul más oscuro */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Agrega un espacio interno para mejorar la apariencia */
+    background-color: #333; /* Establece un fondo oscuro */
+    color: white; /* Define el color del texto en blanco */
+}
+
+/* Contenedor de los enlaces de redes sociales */
+.social-links {
+    display: flex; /* Usa Flexbox para organizar los botones horizontalmente */
+    justify-content: center; /* Centra los botones dentro del contenedor */
+    gap: 15px; /* Agrega espacio entre cada botón */
+    margin-top: 10px; /* Separa los botones del texto superior */
+}
+
+/* Estilos generales para los botones de redes sociales */
+.social-btn {
+    display: flex; /* Usa flexbox para alinear el icono y el texto */
+    align-items: center; /* Centra verticalmente el contenido del botón */
+    gap: 8px; /* Espacio entre el ícono y el texto */
+    padding: 10px 15px; /* Ajusta el tamaño del botón */
+    border-radius: 5px; /* Aplica bordes redondeados */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color del texto en blanco */
+    font-weight: bold; /* Hace el texto más grueso */
+    transition: transform 0.2s ease-in-out; /* Agrega una animación suave */
+}
+
+/* Estilo para Facebook */
+.facebook {
+    background-color: #3b5998; /* Usa el color oficial de Facebook */
+}
+
+/* Estilo para Twitter */
+.correo {
+    background-color: #1da1f2; /* Usa el color oficial de Twitter */
+}
+
+/* Estilo para Instagram */
+.instagram {
+    background-color: #e1306c; /* Usa el color oficial de Instagram */
+}
+
+/* Estilo para WhatsApp */
+.whatsapp {
+    background-color: #25d366; /* Usa el color oficial de WhatsApp */
+}
+
+/* Efecto al pasar el mouse sobre los botones */
+.social-btn:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del botón */
+}
+
+.agradecimiento {
+    display: flex;
+    margin-top: 15%;
+    font-size: xxx-large;
+    text-align: center;
+    justify-content: center;
+}
+
+.agradecimiento .image {
+    display: block;
+    position: absolute;
+    margin-top: 145px;
+    display: flex; /* Usa Flexbox para organizar los elementos */
+    justify-content: space-between; /* Separa el título y la navegación */
+    align-items: center; /* Alinea verticalmente los elementos */
+    padding: 10px; /* Espaciado interno */
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    justify-content: center;
+}
