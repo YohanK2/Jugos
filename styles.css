@@ -17,6 +17,10 @@ body {
     background-color: #01050a;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 video {
     display: block;
     margin: 10px auto;
