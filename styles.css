@@ -264,7 +264,7 @@ h1 {
 .card img {
     width: 100% 215px; /* La imagen ocupa todo el ancho de la tarjeta */
     border-radius: 10px; /* Bordes redondeados */
-    height: 497px;
+    height: auto 497px;
 }
 
 /* Estilos de los títulos de las tarjetas */
