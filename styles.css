@@ -252,8 +252,9 @@ h1 {
 }
 
 .card1 img {
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
+    height: 497px;
 }
 
 .card:hover {
