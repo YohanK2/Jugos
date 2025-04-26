@@ -225,6 +225,22 @@ h1 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card1 {
+    background-color: none; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta cualquier contenido fuera de la tarjeta */
+    height: auto;
+    width: 250px; /* Define el ancho de la tarjeta */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+    text-align: center; /* Alinea el contenido al centro */
+    padding: 20px; /* Espaciado interno */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card1 p {
+    color: white;
+}
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
