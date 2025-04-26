@@ -261,13 +261,13 @@ h1 {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-.card img {
-    width: 100% 215px; /* La imagen ocupa todo el ancho de la tarjeta */
-    border-radius: 10px; /* Bordes redondeados */
-    height: auto 497px;
+.card img, .card1 img {
+    width: 215px;  /* O el tamaño que prefieras */
+    height: 300px; /* Para mantener proporción y consistencia */
+    object-fit: cover; /* Ajusta la imagen para que no se deforme */
+    border-radius: 10px;
 }
 
-/* Estilos de los títulos de las tarjetas */
 .card h3 {
     margin: 15px 0; /* Espaciado superior e inferior */
     font-size: 20px; /* Tamaño de fuente */
